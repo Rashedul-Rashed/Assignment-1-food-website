@@ -9,14 +9,20 @@ body {
   margin-left: 50px;
   margin-top: 50px;
 }
+p {
+  margin-bottom: 50px;
+}
 .half-width {
   width: 50%;
 }
 .half-width img {
-  width: 80%;
+  width: 90%;
 }
 h1 {
   font-size: 50px;
+}
+.header-font {
+  font-size: 30px;
 }
 #position {
   margin-top: 70px;
@@ -38,4 +44,23 @@ h1 {
 }
 #p-center {
   text-align: center;
+}
+.recipe-area {
+  display: flex;
+}
+.recipe-item {
+  width: 34%;
+  margin: 4%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0%;
+  border: 10px solid white;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 20px;
+}
+footer {
+  text-align: center;
+  background-color: midnightblue;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
